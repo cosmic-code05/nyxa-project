@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pasta La Vista</title>
+        <style>
+            body {
+                font-family: Georgia, 'Times New Roman', serif;
+                background-color: rgba(241, 189, 214, 0.732);
+                margin:0;
+                padding:0;
+            }
+            header{
+                text-align: center;
+                padding:20px;
+            }
+            #header-img{
+                width:100%
+                max-height: 300px;
+                object-fit: cover;
+                border-radius:10px;    
+            }
+            nav a{
+                margin:0 15px;
+                text-decoration:none;
+                color:rgb(91, 44, 6);
+                font-weight:bold;
+            }
+            #menu{
+                text-align: center;
+                padding:30px
+            }
+            article{
+                display:inline-block;
+                margin:20px;
+                border:1px solid #c45ea597;
+                padding: 15px;
+                width:250px;
+                background color:#ffffff;
+                box-shadow:0 0 10px rgba(82, 36, 57, 0.841);
+            }
+            article img{
+                 border-radius: 10px;
+                 width: 100%;
+            }
+            #order-form{
+                
+                padding: 30px;
+            }
+            #order-form h2 {
+              text-align: center
+              
+            }
+            form{
+                max-width: 400px;
+                margin: auto;
+            }
+            label{
+                display:inline-block;
+                margin-bottom: 5px;
+                font-weight:bold;
+            }
+            input,textarea{
+                width:100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                border: 1px solid #c45ea597;
+                font-family: inherit;
+            }
+            input[type="submit"]{
+                background-color: rgb(207, 19, 104);
+                color:#efefef;
+                border:none;
+                cursor:pointer;
+                transition:0.3s;
+            }
+             input[type="submit"]:hover {
+                background-color: #790332;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="header-img" src="https://i.pinimg.com/736x/66/55/2a/66552a6ec6aaf3285f6b458469c1d7fa.jpg" alt="Restaurant Banner" width="850">
+            <h1>Pasta La Vista</h1>
+            <nav>
+                <a href="#menu">Menu</a>
+                <a href="#order-form">Order Form</a>
+            </nav>
+        </header>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                <!--ARTICLE---->
+                <article>
+                    <img src="https://cdn.cosmos.so/de2c4beb-84aa-446e-a1ba-4a7b9cb0f687?format=jpeg" width="250">
+                    <h3>Spicy Red Sauce Pasta</h3>
+                    <p>Rich creamy spicy and tangy pasta with a twist of garlic bread.</p>
+                    <em>₹350</em></p>
+                </article>
+                <article>
+                    <img src="https://i.pinimg.com/736x/35/ee/c4/35eec4557d610d4fd10e62863aacd085.jpg" width="250">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>Rich in creame & cheesy spaghetti with parsley on the top</p>
+                    <em>₹250</em></p>
+                </article>
+                <article>
+                    <img src="https://i.pinimg.com/736x/a2/5d/af/a25daf7f67965e5e8c96c8690b7d3b89.jpg"  width="250">
+                    <h3> Aglio olio </h3>
+                    <p>Garlicy cheesy and corriander sprinkled pasta</p>
+                    <em>₹450</em></p>
+                </article>
+            </section>
+                <section id="order-form">
+                    <h2>Place your order</h2>
+
+                    <form>
+                        <label for="red-pasta">Spicy Red Sauce Pasta:</label>
+                        <input type="number" id="red-pasta" name="red-pasta" min="0"><br></br>
+
+                        <label for="Carbonara">Spaghetti Carbonara:</label>
+                        <input type="number" id="carbonara" name="carbonara" min="0"><br></br>
+
+                        <label for="aglio-olio">Aglio-olio:</label>
+                        <input type="number" id="aglio-olio" name="aglio-olio" min="0"><br></br>
+
+                        <p>Add-ons:</p>
+                        <input type="checkbox" id="extra cheese" name="addons" value="extra cheese">
+                        <label for="extra-cheese">Extra Cheese</label><br>
+
+                        <input type="checkbox" id="garlic-bread" name="addons" value="garlic-bread">
+                        <label for="garlic-bread">Garlic-bread</label><br></br>
+
+                        <label for="requests">Special Requests:</label><br>
+                        <textarea id="requests" name="requests" rows="4" cols="40" placeholder="Anything specific?"></textarea><br></br>
+
+                        <input type="submit" value="Go To Checkout">
+                    </form>
+            </section>
+        </main>
+         <footer>
+            <p>&copy; 2025 Pasta La Vista. All rights reserved.</p>
+            <p>Contact us: contact@PastaLaVista.com</p>
+        </footer>
+    </body>
+</html>
