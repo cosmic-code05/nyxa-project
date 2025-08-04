@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Swati Sagarika Bhuyan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://i.pinimg.com/736x/42/a8/c7/42a8c7c4a8f92e47252e920eb6328ecd.jpg" alt="Swati's Photo">
+      <p>I am Swati Sagarika Bhuyan, a cybersecurity student👩‍💻 and aspiring tech leader, passionate about design, security and love building cute websites👾 and apps through codes.I also create aesthetic UGC contents✨ and love singing🎤 and journaling. <br>As a kid i always wanted to be either a singer or a doctor but my plane landed on engineering somehow. I started my coding journey with null experiences. I was not good at coding. I tried a lot of websited initially nothing really worked for someone like me whose a complete beginner. And then i got intorduced to <b>✨Codédex✨</b>, the more i used it the more i gained my interest for coding. And now i code really better and i love coding. I love how the aesthetics of <b>Codédex</b> is pixel based which gives a vibe of playing games. <br>I'm also exploring Python, UI/UX and digital content creation. Briefly i'm learning to bring logic and creativity together✨.</br></p>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Nyxa Project~</h3>
+        <p>I built my first project using only HTML that is a restaurant menu page. I made it after completing the HTML course from <b>Codédex</b>. Honestly, I used to hate coding, but <b>Codédex</b> helped me grow so much that now I actually love it! This personal website you're seeing right now is my second project that is built using both HTML and CSS.<br>I also once tried creating a basic calculator using Python but it wasn't perfect, but it made me curious to keep learning.
+          Every project I make now feels like a step closer to the creative, confident version of me I'm becoming.</br></p>
+        <a href="https://github.com/cosmic-code05/nyxa-project.git">Source code</a>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: the.espressoe@gmail.com</p>
+      <p>Instagram: @espresss0e_15</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Swati Sagarika Bhuyan</p>
+  </footer>
+</body>
+</html>
